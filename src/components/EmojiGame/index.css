@@ -1,0 +1,27 @@
+.background-container {
+  height: 100vh;
+}
+.emojilists {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0px;
+  width: 760px;
+  justify-content: center;
+}
+.second-container {
+  display: flex;
+  background-image: linear-gradient(to right, #9796f0, #fbc7d4);
+  align-items: center;
+  min-height: 89vh;
+  justify-content: center;
+}
+@media screen and (max-width: 768px) {
+  .emojilists {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 500px;
+    justify-content: center;
+  }
+}
